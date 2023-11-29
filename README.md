@@ -15,7 +15,7 @@ So analyzing traffic of people and vehicles, detecting robbery, fights in the cr
 ## Methodology / Approach
 The video is captured with a webcam, smart cameras with movidius or realsense and converted to h265 for sending on the server. With cameras with OAK, or OAK-D that uses the movidius chip, the object's coordinates can be processed in real time and submitted to the server along with the video stream.
 
-​If the camera has a depth sensor such as OAK-D or Realsense, the distance from the object will be sent as metadata along with the result of the inference processing.Mo
+​If the camera has a depth sensor such as OAK-D or Realsense, the distance from the object will be sent as metadata along with the result of the inference processing.
 
 ## Technologies Used
 - Movidius
